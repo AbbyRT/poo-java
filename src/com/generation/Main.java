@@ -23,6 +23,12 @@ public class Main {
         doggo2.caracteristicas();
         doggo2.dormir();
 
+        Lomito doggo3 = new Lomito("Willis"); //intellij detecta que el parametro es el nombre
+        //se peuden tener varias maneras de crear un mismo objeto
+        doggo3.caracteristicas();
+        System.out.println(doggo3.nombre);
 
+        Lomito doggo4= new Lomito("Canelita","Corgi",4, "mega");
+        doggo4.caracteristicas();
     }
 }
